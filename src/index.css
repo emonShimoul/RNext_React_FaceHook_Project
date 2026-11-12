@@ -52,16 +52,16 @@
   }
 
   .auth-input {
-    @apply w-full rounded-md border border-[#CCCCCC]/[14%] bg-lighterDark p-1.5 focus:outline-none lg:p-3;
+    @apply w-full rounded-md border border-[#CCCCCC]/14 bg-lighterDark p-1.5 focus:outline-none lg:p-3;
   }
 
   .post-avater {
-    @apply max-w-10 max-h-10 rounded-full lg:max-h-[58px] lg:max-w-[58px];
+    @apply max-w-10 max-h-10 rounded-full lg:max-h-14.5 lg:max-w-14.5;
   }
 
   /* Action Modal */
   .action-modal-container {
-    @apply absolute right-full top-6 min-w-[200px] rounded-md border border-[#3F3F3F] bg-mediumDark px-4 py-2 lg:px-7 lg:py-5 divide-y divide-[#3F3F3F] [&>button]:py-2;
+    @apply absolute right-full top-6 min-w-50 rounded-md border border-[#3F3F3F] bg-mediumDark px-4 py-2 lg:px-7 lg:py-5 divide-y divide-[#3F3F3F] [&>button]:py-2;
   }
 
   .action-menu-item {
