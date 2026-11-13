@@ -2,7 +2,7 @@ import useProfile from "../../hooks/useProfile";
 import PostList from "../posts/PostList";
 
 const MyPosts = () => {
-  const { state, dispatch } = useProfile();
+  const { state } = useProfile();
   const posts = state?.posts;
 
   return (
