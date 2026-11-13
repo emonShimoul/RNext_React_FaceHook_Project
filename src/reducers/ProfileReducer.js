@@ -33,6 +33,14 @@ const profileReducer = (state, action) => {
       };
     }
 
+    case actions.profile.USER_DATA_EDITED: {
+      return {
+        ...state,
+        loading: false,
+        user: action.data
+      };
+    }
+
     default: {
       return state;
     }
@@ -40,3 +48,4 @@ const profileReducer = (state, action) => {
 };
 
 export { initialState, profileReducer };
+
